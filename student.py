@@ -14,6 +14,10 @@ def random_student():
     new_list.append(student_list[n])
     print(student_list[n])
 
+# Remove student name from student_list
+    student_list.pop(n)
+
+
 # Save all the student names in new_list to the file student_list.text
     with open('student_list.txt', 'w') as filehandle:
         filehandle.writelines("%s\n" % student for student in new_list)
