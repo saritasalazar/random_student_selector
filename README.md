@@ -1,7 +1,7 @@
 # Random Student Selector
 
 Built with Python.
-Given an array of names, this script will return a name at random.
+Given an list of names, this script will return a name at random.
 
 ## Getting Started
 
